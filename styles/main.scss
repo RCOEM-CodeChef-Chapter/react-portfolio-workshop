@@ -1,0 +1,18 @@
+ @import "./nav", "./main-page", "./portfolio-info", "./socials", "./footer";
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #fff;
+     width: 100%;
+     padding-top: 100px;
+ }
+
+ a {
+     text-decoration: none;
+     color: #fff;
+ }

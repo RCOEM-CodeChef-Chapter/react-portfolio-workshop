@@ -1,0 +1,42 @@
+nav {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(26, 26, 26, .7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+
+    img {
+        width: 50px;
+        margin-right: 6px;
+    }
+}
+
+.branding {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.register {
+    text-transform: uppercase;
+    background: #fff;
+    padding: 10px 16px;
+    color: #000;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &:active {
+        transform: scale(.9);
+    }
+
+}
