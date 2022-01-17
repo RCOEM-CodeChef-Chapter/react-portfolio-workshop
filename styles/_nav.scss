@@ -1,15 +1,17 @@
 nav {
-
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(26, 26, 26, .7);
+    background: rgba(255, 255, 255, .2);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 10px;
+    padding: 4px 20px;
+    color: #262626;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
 
     img {
         width: 50px;
@@ -25,11 +27,16 @@ nav {
 }
 
 .register {
+    outline: none;
+    border: none;
     text-transform: uppercase;
     background: #fff;
-    padding: 10px 16px;
+    padding: 10px 22px;
     color: #000;
     cursor: pointer;
+    border-radius: 2px;
+    font-size: large;
+    letter-spacing: 2px;
 
     &:hover {
         transform: scale(1.05);

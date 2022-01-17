@@ -1,0 +1,42 @@
+footer {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    padding-bottom: 4px;
+    margin-top: 40px;
+
+    p {
+        margin: 4px;
+        width: 80%;
+        text-align: center;
+
+        a {
+            color: cyan;
+        }
+    }
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 2px;
+
+    .fab {
+        color: #fff;
+        font-size: 40px;
+        margin: 6px 16px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

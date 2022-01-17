@@ -1,4 +1,4 @@
- @import "./nav", "./main-page", "./portfolio-info", "./socials", "./footer";
+ @import "./nav", "./main-page", "./portfolio-info", "./footer";
 
  * {
      margin: 0;
@@ -9,10 +9,14 @@
  body {
      background-color: #fff;
      width: 100%;
-     padding-top: 100px;
+     font-family: 'Montserrat', sans-serif;
  }
 
  a {
      text-decoration: none;
      color: #fff;
+ }
+
+ button {
+     font-family: 'Raleway', sans-serif;
  }
