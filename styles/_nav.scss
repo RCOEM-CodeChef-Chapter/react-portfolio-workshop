@@ -1,3 +1,5 @@
+$mobile:500px;
+
 nav {
     position: absolute;
     top: 0;
@@ -45,5 +47,10 @@ nav {
     &:active {
         transform: scale(.9);
     }
+}
 
+@media screen and (max-width: $mobile) {
+    nav .register {
+        display: none;
+    }
 }

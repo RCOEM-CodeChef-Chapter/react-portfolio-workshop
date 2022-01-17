@@ -25,3 +25,16 @@
         border-radius: 10px;
     }
 }
+
+@media screen and (max-width: $mobile) {
+    .portfolio-info {
+        img {
+            width: 95%;
+            border-width: 10px;
+        }
+
+        .desc {
+            width: 80%;
+        }
+    }
+}

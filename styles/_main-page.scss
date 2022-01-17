@@ -57,3 +57,20 @@
         width: 70%;
     }
 }
+
+@media screen and (max-width: $mobile) {
+    .main-page {
+        flex-direction: column-reverse;
+        padding-top: 100px;
+    }
+
+    .right-side {
+        justify-content: center;
+    }
+
+    .left-side {
+        .info {
+            width: 90%;
+        }
+    }
+}
