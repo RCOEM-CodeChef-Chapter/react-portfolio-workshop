@@ -17,7 +17,7 @@
     <link href="./assets/logo.jpg" rel="icon" type="image/png" sizes="16x16">
     <link href="./assets/logo.jpg" rel="icon" type="image/png" sizes="32x32">
 
-    <title>Portfolio Workshop | RCOEM Codechef Chapter </title>
+    <title>Portfolio Website | RCOEM Codechef Chapter </title>
 
     <link rel="stylesheet" href="./styles/main.min.css">
 
@@ -25,9 +25,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/ba247bd83d.js" crossorigin="anonymous" defer></script>
+    
 </head>
 
 <body>
@@ -35,23 +39,49 @@
     <nav>
         <a target="_blank" class="branding" href="">
             <div class="logo">
-                <img src="./assets/logo.png" alt="site logo">
+                <img src="./assets/pixlr-bg-result.png" alt="site logo">
             </div>
-            <div class="title">RCOEM Codechef Chapter</div>
+            <div class="title"><b>RCOEM Codechef Chapter</b></div>
         </a>
-
-        <a target="_blank" class="register">register</a>
+        <section> 
+            <div id="timer" class="container">
+                <table>
+                    <tr id="info">
+                        <td>Register Before</td>
+                    </tr>
+                </table>
+                <table class="countdownContainer">                    
+                    <tr>
+                        <td id="days">10</td>
+                        <td id="hours">11</td>
+                        <td id="minutes">11</td>
+                        <td id="seconds">11</td>
+                    </tr>
+                    <tr>
+                        <td>Days</td>
+                        <td>Hours</td>
+                        <td>Minutes</td>
+                        <td>Seconds</td>
+                    </tr>
+                </table>
+            </div>
+        </section> 
+        <!-- <a target="_blank" class="register">register</a> -->
     </nav>
 
     <section class="main-page">
         <div class="left-side">
             <div class="info">
-                <h2 class="title">React Workshop</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in commodi dolorem
-                voluptatum saepe quidem dignissimos. Aliquid at veniam delectus sed repudiandae, numquam ratione
-                dignissimos sunt? Blanditiis quas at veritatis.
+                <h2 class="title"><b>Build and Deploy Portfolio Website Using REACT.js</b></h2>                
             </div>
-            <button href="" target="_blank" class="register">register</button>
+
+            <div class="good">
+                <br><br>  
+                <i id="icons" class="fas fa-calendar-day fa-2x"></i>&emsp;27 January 2022   <br><br>               
+                <i id="icons" class="fas fa-clock fa-2x"></i>&emsp;10:30 am to 4 pm         <br><br>             
+                <i class="fas fa-map-marker-alt fa-2x"></i>&emsp;Online          <br><br>            
+            </div>            
+            <a target="_blank" class="register" href="https://forms.gle/fhNkxWoBVWCYcGRc6">Register now</a>
         </div>
         <div class="right-side">
             <img src="./assets/react.svg" alt="react">
@@ -59,13 +89,73 @@
     </section>
 
     <section class="portfolio-info">
-        <h2>Weibinar info</h2>
-        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit sunt, necessitatibus eaque
-            quibusdam temporibus facilis, voluptatem repellat delectus voluptatum voluptatibus quia commodi, vel beatae.
-            Dolore esse aliquid voluptas vel officiis sed nulla, dolor doloremque non odit beatae nemo, molestias amet
-            rerum et?</div>
+        <h2>Takeaways from Session</h2>
+        <div class="desc">
+            <div class="flexbox-container">
+                <div class="flexbox-item item-1"><i class="fas fa-laptop-house fa-3x"></i></div>
+                <div class="flexbox-item item-2"><br/><h3>Learn From Home</h3></div>
+                <div class="flexbox-item item-1"><i class="fas fa-file fa-3x"></i></div>
+                <div class="flexbox-item item-2"><br/><h3>Get Certificate</h3></div>
+            </div>
+            <div class="flexbox-container">
+                <div class="flexbox-item item-1"><i class="fas fa-lightbulb fa-3x"></i></div>
+                <div class="flexbox-item item-2"><br/><h3>Build Real World Projects</h3></div>
+                <div class="flexbox-item item-1"><i class="fas fa-comments fa-3x"></i></div>
+                <div class="flexbox-item item-2"><br/><h3>Live Doubt Clearing</h3></div>
+            </div>
+            <div class="flexbox-container">
+                <div class="flexbox-item item-1"><i class="fas fa-check-square fa-3x"></i></div>
+                <div class="flexbox-item item-2"><br/><h3>Beginner Friendly</h3></div>
+                <div class="flexbox-item item-1"><i class="fas fa-file-download fa-3x"></i></div>
+                <div class="flexbox-item item-2"><br/><h3>Access to Content</h3></div>
+            </div>
+            <br><br><br>
+        </div>
 
-        <img src="./assets/portfolio-grid.png" alt="Portfolio site image">
+        <h2>Why should you attend this Workshop?</h2>
+        <div class="flexbox-container-react">
+
+            <div class="flexbox-item-react">                
+                <p>Having a great eye-catchy portfolio is imperative to succeed in your field. 
+                    If your portfolio can't sell you as a person and display your awesome skills, 
+                    then interviewers won’t hesitate to filter you out. Join CodeChef RCOEM Chapter’s 
+                    "Hands-on workshop on Portfolio creation using React" to take full control of how 
+                    you'd like to present yourself.</p><br>
+                    <p> Learn how to build a responsive personal development 
+                    portfolio from scratch that makes your first impression count. The Speaker, 
+                    a React JS expert will take you through every single step of building a neat-looking 
+                    portfolio website. Also, get a first-hand look at React JS's capabilities and explore 
+                    its real-world uses from an industry expert. Towards the end of this workshop, you'd 
+                    have built a personalized dynamic portfolio ready to be sent out to potential employers!</p>
+            </div>
+            
+            <div class="flexbox-item-img">
+                <img src="./assets/portfolio-grid.png" alt="Portfolio site image">
+            </div>
+        </div>
+
+        <h2>Why React?</h2>
+        <div class="flexbox-container-react">
+            
+            <div class="flexbox-item-react">                
+                <h3>Build Awesome websites</h3>
+                <p>Mark Zuckerberg built Facebook and Reed Hastings built Netflix using REACT.<br/> What will you build??</p>
+                <br/>
+                <h3>In Demand Skill</h3>
+                <p>With 1 billion websites on the internet, it is one of the hottest career options with an average fresher salary of 6 LPA for full stack developers according to Glassdoor.</p>
+                <br/>
+                <h3>Helps you build Solid Career</h3>
+                <p>It opens door to Full Stack Development which will help you enhance knowledge in Back-end</p>
+                <br><br>
+            </div>
+            <div class="flexbox-item-img">
+                <img src="./assets/react-imp.jpg" alt="Portfolio site image">
+            </div>
+        </div>
+
+        
+        
+        <a target="_blank" class="register" href="https://forms.gle/fhNkxWoBVWCYcGRc6">Register now</a>
     </section>
 
 
@@ -88,6 +178,9 @@
         </section>
         <p class="msg">Made with 💖 by RCOEM Codechef Chapter Team</p>
     </footer>
+
+    <!--Javascript file-->
+    <script src="./index.js"></script>
 
 </body>
 

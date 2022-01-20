@@ -5,6 +5,7 @@
     padding: 10px;
     align-items: center;
     width: 100%;
+    height: 100%;
     height: 100vh;
     color: #fff;
     background: #000046;
@@ -22,15 +23,18 @@
     padding: 10px 40px;
 
     .info {
-        width: 60%;
+        width: 80%;
+        margin-top: 4.5rem;
         display: flex;
         flex-direction: column;
         justify-content: left;
         align-items: left;
+        
+        
     }
 
     .title {
-        font-size: 3rem;
+        font-size: 2.7rem;
         padding: 0;
         margin-bottom: 10px;
         font-family: 'Raleway', sans-serif;
@@ -39,12 +43,9 @@
     p {
         text-align: justify;
         margin-bottom: 10px;
-        font-size: large;
+        font-size: 1rem;
     }
-
-    .register {
-        margin-top: 10px;
-    }
+    
 }
 
 .right-side {
@@ -61,7 +62,7 @@
 @media screen and (max-width: $mobile) {
     .main-page {
         flex-direction: column-reverse;
-        padding-top: 100px;
+        padding-top: 130px;
     }
 
     .right-side {
@@ -70,7 +71,16 @@
 
     .left-side {
         .info {
-            width: 90%;
+            width: 100%;
+            margin-top: 2rem;
+            
+        }
+
+        .title{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 15px;
         }
     }
 }
