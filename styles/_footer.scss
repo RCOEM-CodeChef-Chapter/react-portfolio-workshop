@@ -1,6 +1,8 @@
 footer {
     width: 100%;
-    background: #000;
+    background: #000000;  
+    background: -webkit-linear-gradient(to left, #434343, #000000);  
+    background: linear-gradient(to left, #434343, #000000); 
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -13,7 +15,7 @@ footer {
     p {
         margin: 4px;
         width: 80%;
-        text-align: center;
+        /* text-align: center; */
 
         a {
             color: cyan;
@@ -29,14 +31,14 @@ footer {
     width: 100%;
     padding: 6px;
     margin-bottom: 2px;
-
+    
     .fab {
         color: #fff;
         font-size: 40px;
         margin: 6px 16px;
 
         &:hover {
-            transform: scale(1.1);
+            transform: scale(1.2);
         }
     }
 }

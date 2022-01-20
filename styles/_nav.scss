@@ -5,7 +5,15 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(255, 255, 255, .2);
+    background: #000000;  
+    background: -webkit-linear-gradient(to left, #434343, #000000);  
+    background: linear-gradient(to left, #434343, #000000); 
+   /*  background: #1F1C2C;  
+    background: -webkit-linear-gradient(to left, #928DAB, #1F1C2C);  
+    background: linear-gradient(to left, #928DAB, #1F1C2C);  */
+    
+
+    background: rgba(255, 255, 255, .5);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,10 +23,32 @@ nav {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
 
-    img {
-        width: 70px;
-        margin-right: 6px;
+    section{
+        position:absolute;
+        margin:auto;
+        right:10px;
+        top:10px;          
+        #timer{
+            color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+        .countdownContainer{
+            text-align: center;
+        }
+        #days,#hours,#minutes,#seconds{
+            font-size: 20px;
+            color: #fff;
+        }
+        td{
+            padding-left: 10px;
+        }
     }
+
+    img {
+        width: 60px;
+        margin-right: 6px;
+    } 
 }
 
 .branding {
@@ -26,6 +56,10 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+    .title{
+        color: #fff;
+    }
 }
 
 .register {
@@ -52,5 +86,11 @@ nav {
 @media screen and (max-width: $mobile) {
     nav .register {
         display: none;
+    }
+
+    nav{
+        section{
+            display: none;
+        }
     }
 }
